@@ -8,7 +8,7 @@
 
 > Status do Projeto: Desenvolvimento :warning:
 
-- [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM.
+- [x]  Redirecionamento ao Canal de Ajuda do Site Oficial da CPTM.
 
 ## Linguagens Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=cs,mysql)](https://skillicons.dev)
