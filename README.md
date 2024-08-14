@@ -3,9 +3,7 @@
   <a href="https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM/graphs/contributors"> 
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
   </a>
-</p>
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
+</p>[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 ## Descrição do Projeto
