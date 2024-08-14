@@ -15,6 +15,6 @@
 
 
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: [https://github.com/othneildrew/Best-README-Template/stargazers](https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jpserignolli
+[linkedin-url]: https://linkedin.com/in/joãoserignolli
