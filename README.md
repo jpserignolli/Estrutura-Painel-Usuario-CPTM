@@ -5,7 +5,6 @@
   </a>
 </p>
 
-[![Stargazers][stars-shield]][stars-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -19,8 +18,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=cs,mysql)](https://skillicons.dev)
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joãoserignolli
 
