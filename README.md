@@ -1,4 +1,4 @@
-# #f03e3e Estrutura Painel Usuário Companhia de Trens Metropolitanos :checkered_flag:
+# $${\color{red}Red}$$ Estrutura Painel Usuário Companhia de Trens Metropolitanos
 
 ## Descrição do Projeto
 <p align="justify"> :trophy: Interface básica para usuário, criada em C#.
