@@ -10,12 +10,14 @@
 
 
 ## Descrição do Projeto
-> Interface básica para usuário, criada em [![My Skills](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
+> Interface básica para usuário.
 
 > Status do Projeto: Desenvolvimento :warning:
 
 - [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM.
 
+
+[![My Skills](https://skillicons.dev/icons?i=cs,mysql)](https://skillicons.dev)
 
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: [https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM]
