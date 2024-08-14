@@ -27,4 +27,3 @@ João Serignolli - jpserig@gmail.com
 
 Project Link: [https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM](https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
