@@ -1,4 +1,9 @@
 # Estrutura Painel de Usuário Companhia Paulista de Trens Metropolitanos
+<p>
+  <a href="https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM/graphs/contributors"> 
+    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  </a>
+</p>
 
 [![Stargazers][stars-shield]][stars-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -11,11 +16,6 @@
 
 - [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM.
 
-<p>
-  <a href="https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM/graphs/contributors"> 
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
-  </a>
-</p>
 
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: [https://github.com/jpserignolli/Estrutura-Painel-Usuario-CPTM]
