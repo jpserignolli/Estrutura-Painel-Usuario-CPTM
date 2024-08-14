@@ -15,14 +15,14 @@
 
 - [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM.
 
-
+## Linguagens Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=cs,mysql)](https://skillicons.dev)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joãoserignolli
 
 
-## Contact
+## Contato
 
 João Serignolli - jpserig@gmail.com
 
