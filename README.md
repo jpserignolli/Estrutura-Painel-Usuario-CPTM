@@ -1,13 +1,20 @@
 # Estrutura Painel de Usuário Companhia Paulista de Trens Metropolitanos
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+[![Stargazers][stars-shield]][stars-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 ## Descrição do Projeto
-<p align="justify"> :trophy: > Interface básica para usuário, criada em C#.
+> Interface básica para usuário, criada em C#.
 
 > Status do Projeto: Desenvolvimento :warning:
+
+- [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM .
+- [ ] 
+
+
+
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/jpserignolli
