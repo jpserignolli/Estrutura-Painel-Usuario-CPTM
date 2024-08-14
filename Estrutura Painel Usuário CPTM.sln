@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura Painel Usuário CPTM", "Estrutura Painel Usuário CPTM.csproj", "{55A073ED-02C4-4C04-8A82-2CDB7F16167A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A073ED-02C4-4C04-8A82-2CDB7F16167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A073ED-02C4-4C04-8A82-2CDB7F16167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A073ED-02C4-4C04-8A82-2CDB7F16167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A073ED-02C4-4C04-8A82-2CDB7F16167A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B085CD-6AED-4725-B9BC-5D7B212BC10E}
+	EndGlobalSection
+EndGlobal
