@@ -9,8 +9,7 @@
 
 > Status do Projeto: Desenvolvimento :warning:
 
-- [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM .
-- [ ] 
+- [x] Adicionado Redirecionamento ao canal de ajuda do site oficial da CPTM.
 
 
 
