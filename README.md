@@ -10,7 +10,7 @@
 
 
 ## Descrição do Projeto
-> Interface básica para usuário, criada em ![image](https://github.com/user-attachments/assets/58732d24-1300-4d55-91e4-56d4a849c99f)
+> Interface básica para usuário, criada em [![My Skills](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
 
 > Status do Projeto: Desenvolvimento :warning:
 
