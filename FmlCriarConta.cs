@@ -15,6 +15,14 @@ namespace Estrutura_Painel_Usuário_CPTM
         public FmlCriarConta()
         {
             InitializeComponent();
+           // _telaPrincipal
+        }
+
+        private void btnCancelarRegistro_Click(object sender, EventArgs e)
+        {
+            CPTM cptm = new CPTM();
+            cptm.Show();
+            this.Hide();
         }
     }
 }

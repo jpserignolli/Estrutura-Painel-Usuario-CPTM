@@ -54,5 +54,10 @@ namespace Estrutura_Painel_Usuário_CPTM
             fmlCriarConta.Show();
             this.Hide();
         }
+
+        private void CPTM_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -116,11 +116,11 @@
     <Compile Include="FmlSenha.Designer.cs">
       <DependentUpon>FmlSenha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FmlTelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FmlTelaPrincipal.Designer.cs">
+      <DependentUpon>FmlTelaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,8 +133,8 @@
     <EmbeddedResource Include="FmlSenha.resx">
       <DependentUpon>FmlSenha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FmlTelaPrincipal.resx">
+      <DependentUpon>FmlTelaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

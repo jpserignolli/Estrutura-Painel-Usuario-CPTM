@@ -81,7 +81,7 @@
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(65, 142);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(215, 35);
@@ -108,7 +108,7 @@
             this.linkPrimeiroAcesso.AutoSize = true;
             this.linkPrimeiroAcesso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkPrimeiroAcesso.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.linkPrimeiroAcesso.Location = new System.Drawing.Point(120, 218);
+            this.linkPrimeiroAcesso.Location = new System.Drawing.Point(125, 218);
             this.linkPrimeiroAcesso.Name = "linkPrimeiroAcesso";
             this.linkPrimeiroAcesso.Size = new System.Drawing.Size(98, 16);
             this.linkPrimeiroAcesso.TabIndex = 7;
@@ -129,9 +129,12 @@
             this.Controls.Add(this.lblInformacaoPainel);
             this.Controls.Add(this.lblInfoMenu);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CPTM";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Companhia Paulista de Trens Metropolitanos";
+            this.Load += new System.EventHandler(this.CPTM_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

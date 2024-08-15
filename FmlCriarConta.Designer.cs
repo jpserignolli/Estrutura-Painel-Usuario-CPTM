@@ -40,20 +40,21 @@
             // 
             // lblInformacaoSenha
             // 
-            this.lblInformacaoSenha.AutoSize = true;
             this.lblInformacaoSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInformacaoSenha.Location = new System.Drawing.Point(32, 36);
+            this.lblInformacaoSenha.Location = new System.Drawing.Point(12, 33);
             this.lblInformacaoSenha.Name = "lblInformacaoSenha";
             this.lblInformacaoSenha.Size = new System.Drawing.Size(139, 16);
             this.lblInformacaoSenha.TabIndex = 4;
             this.lblInformacaoSenha.Text = "Registre sua Conta";
+            this.lblInformacaoSenha.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblInformacaoSenha.UseCompatibleTextRendering = true;
             // 
             // lblCPFRegistro
             // 
             this.lblCPFRegistro.AutoSize = true;
             this.lblCPFRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCPFRegistro.ForeColor = System.Drawing.Color.Black;
-            this.lblCPFRegistro.Location = new System.Drawing.Point(83, 77);
+            this.lblCPFRegistro.Location = new System.Drawing.Point(54, 79);
             this.lblCPFRegistro.Name = "lblCPFRegistro";
             this.lblCPFRegistro.Size = new System.Drawing.Size(36, 16);
             this.lblCPFRegistro.TabIndex = 7;
@@ -61,7 +62,7 @@
             // 
             // boxCPFRegistro
             // 
-            this.boxCPFRegistro.Location = new System.Drawing.Point(86, 96);
+            this.boxCPFRegistro.Location = new System.Drawing.Point(57, 98);
             this.boxCPFRegistro.Name = "boxCPFRegistro";
             this.boxCPFRegistro.Size = new System.Drawing.Size(215, 20);
             this.boxCPFRegistro.TabIndex = 8;
@@ -72,7 +73,7 @@
             this.lblSenhaRegistro.AutoSize = true;
             this.lblSenhaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSenhaRegistro.ForeColor = System.Drawing.Color.Black;
-            this.lblSenhaRegistro.Location = new System.Drawing.Point(83, 134);
+            this.lblSenhaRegistro.Location = new System.Drawing.Point(54, 133);
             this.lblSenhaRegistro.Name = "lblSenhaRegistro";
             this.lblSenhaRegistro.Size = new System.Drawing.Size(51, 16);
             this.lblSenhaRegistro.TabIndex = 9;
@@ -80,7 +81,7 @@
             // 
             // boxSenhaRegistro
             // 
-            this.boxSenhaRegistro.Location = new System.Drawing.Point(86, 153);
+            this.boxSenhaRegistro.Location = new System.Drawing.Point(57, 152);
             this.boxSenhaRegistro.Name = "boxSenhaRegistro";
             this.boxSenhaRegistro.Size = new System.Drawing.Size(215, 20);
             this.boxSenhaRegistro.TabIndex = 10;
@@ -89,21 +90,22 @@
             // btnCancelarRegistro
             // 
             this.btnCancelarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarRegistro.ForeColor = System.Drawing.Color.Black;
-            this.btnCancelarRegistro.Location = new System.Drawing.Point(65, 233);
+            this.btnCancelarRegistro.Location = new System.Drawing.Point(57, 232);
             this.btnCancelarRegistro.Name = "btnCancelarRegistro";
             this.btnCancelarRegistro.Size = new System.Drawing.Size(136, 32);
             this.btnCancelarRegistro.TabIndex = 13;
             this.btnCancelarRegistro.Text = "Cancelar";
             this.btnCancelarRegistro.UseVisualStyleBackColor = true;
+            this.btnCancelarRegistro.Click += new System.EventHandler(this.btnCancelarRegistro_Click);
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrar.Location = new System.Drawing.Point(207, 233);
+            this.btnRegistrar.Location = new System.Drawing.Point(212, 232);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(136, 32);
             this.btnRegistrar.TabIndex = 14;
@@ -128,6 +130,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FmlCriarConta";
+            this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmlCriarConta";
             this.ResumeLayout(false);
