@@ -36,6 +36,8 @@
             this.boxSenhaRegistro = new System.Windows.Forms.TextBox();
             this.btnCancelarRegistro = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblInformacaoSenha
@@ -54,7 +56,7 @@
             this.lblCPFRegistro.AutoSize = true;
             this.lblCPFRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCPFRegistro.ForeColor = System.Drawing.Color.Black;
-            this.lblCPFRegistro.Location = new System.Drawing.Point(54, 79);
+            this.lblCPFRegistro.Location = new System.Drawing.Point(9, 83);
             this.lblCPFRegistro.Name = "lblCPFRegistro";
             this.lblCPFRegistro.Size = new System.Drawing.Size(36, 16);
             this.lblCPFRegistro.TabIndex = 7;
@@ -62,7 +64,7 @@
             // 
             // boxCPFRegistro
             // 
-            this.boxCPFRegistro.Location = new System.Drawing.Point(57, 98);
+            this.boxCPFRegistro.Location = new System.Drawing.Point(12, 111);
             this.boxCPFRegistro.Name = "boxCPFRegistro";
             this.boxCPFRegistro.Size = new System.Drawing.Size(215, 20);
             this.boxCPFRegistro.TabIndex = 8;
@@ -74,7 +76,7 @@
             this.lblSenhaRegistro.AutoSize = true;
             this.lblSenhaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSenhaRegistro.ForeColor = System.Drawing.Color.Black;
-            this.lblSenhaRegistro.Location = new System.Drawing.Point(54, 133);
+            this.lblSenhaRegistro.Location = new System.Drawing.Point(9, 134);
             this.lblSenhaRegistro.Name = "lblSenhaRegistro";
             this.lblSenhaRegistro.Size = new System.Drawing.Size(51, 16);
             this.lblSenhaRegistro.TabIndex = 9;
@@ -82,7 +84,7 @@
             // 
             // boxSenhaRegistro
             // 
-            this.boxSenhaRegistro.Location = new System.Drawing.Point(57, 152);
+            this.boxSenhaRegistro.Location = new System.Drawing.Point(12, 153);
             this.boxSenhaRegistro.Name = "boxSenhaRegistro";
             this.boxSenhaRegistro.Size = new System.Drawing.Size(215, 20);
             this.boxSenhaRegistro.TabIndex = 10;
@@ -93,9 +95,9 @@
             this.btnCancelarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarRegistro.ForeColor = System.Drawing.Color.Black;
-            this.btnCancelarRegistro.Location = new System.Drawing.Point(57, 232);
+            this.btnCancelarRegistro.Location = new System.Drawing.Point(12, 188);
             this.btnCancelarRegistro.Name = "btnCancelarRegistro";
-            this.btnCancelarRegistro.Size = new System.Drawing.Size(136, 32);
+            this.btnCancelarRegistro.Size = new System.Drawing.Size(100, 32);
             this.btnCancelarRegistro.TabIndex = 13;
             this.btnCancelarRegistro.Text = "Cancelar";
             this.btnCancelarRegistro.UseVisualStyleBackColor = true;
@@ -106,13 +108,23 @@
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrar.Location = new System.Drawing.Point(212, 232);
+            this.btnRegistrar.Location = new System.Drawing.Point(118, 188);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(136, 32);
+            this.btnRegistrar.Size = new System.Drawing.Size(109, 32);
             this.btnRegistrar.TabIndex = 14;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(648, 300);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(125, 46);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
             // 
             // FmlCriarConta
             // 
@@ -120,8 +132,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(400, 400);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(773, 345);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnCancelarRegistro);
             this.Controls.Add(this.boxSenhaRegistro);
@@ -135,6 +148,7 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmlCriarConta";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,5 +163,6 @@
         private System.Windows.Forms.TextBox boxSenhaRegistro;
         private System.Windows.Forms.Button btnCancelarRegistro;
         private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

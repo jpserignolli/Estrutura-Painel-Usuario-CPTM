@@ -75,5 +75,10 @@ namespace Estrutura_Painel_Usuário_CPTM
                 tbCPF.SelectionStart = tbCPF.Text.Length;
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
