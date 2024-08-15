@@ -35,5 +35,24 @@ namespace Estrutura_Painel_Usuário_CPTM
         {
             string cpf = boxCPF.Text;
         }
+
+        private void linkDuvidas_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = "https://www.cptm.sp.gov.br/Pages/atendimento.aspx";
+
+            try{
+                System.Diagnostics.Process.Start(url);
+            }
+            catch (Exception ex){
+
+            }
+        }
+
+        private void linkPrimeiroAcesso_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FmlCriarConta fmlCriarConta = new FmlCriarConta();
+            fmlCriarConta.Show();
+            this.Hide();
+        }
     }
 }

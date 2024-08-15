@@ -52,20 +52,20 @@
             // lblCPF2
             // 
             this.lblCPF2.AutoSize = true;
-            this.lblCPF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCPF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCPF2.Location = new System.Drawing.Point(12, 60);
             this.lblCPF2.Name = "lblCPF2";
-            this.lblCPF2.Size = new System.Drawing.Size(33, 16);
+            this.lblCPF2.Size = new System.Drawing.Size(36, 16);
             this.lblCPF2.TabIndex = 4;
             this.lblCPF2.Text = "CPF";
             // 
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSenha.Location = new System.Drawing.Point(12, 117);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(46, 16);
+            this.lblSenha.Size = new System.Drawing.Size(51, 16);
             this.lblSenha.TabIndex = 6;
             this.lblSenha.Text = "Senha";
             // 
@@ -79,6 +79,7 @@
             // btnCancelar
             // 
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(36, 202);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(136, 32);
@@ -89,6 +90,7 @@
             // btnEntrar
             // 
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.Location = new System.Drawing.Point(178, 202);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(136, 32);
@@ -124,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(382, 368);
+            this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.lblInfCPF);
             this.Controls.Add(this.linkEsqueciSenha);
             this.Controls.Add(this.btnEntrar);
