@@ -67,6 +67,7 @@
             this.boxCPFRegistro.Size = new System.Drawing.Size(215, 20);
             this.boxCPFRegistro.TabIndex = 8;
             this.boxCPFRegistro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.boxCPFRegistro.TextChanged += new System.EventHandler(this.boxCPFRegistro_TextChanged);
             // 
             // lblSenhaRegistro
             // 
@@ -111,6 +112,7 @@
             this.btnRegistrar.TabIndex = 14;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // FmlCriarConta
             // 

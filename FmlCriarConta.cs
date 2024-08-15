@@ -15,7 +15,6 @@ namespace Estrutura_Painel_Usuário_CPTM
         public FmlCriarConta()
         {
             InitializeComponent();
-           // _telaPrincipal
         }
 
         private void btnCancelarRegistro_Click(object sender, EventArgs e)
@@ -23,6 +22,58 @@ namespace Estrutura_Painel_Usuário_CPTM
             CPTM cptm = new CPTM();
             cptm.Show();
             this.Hide();
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+            string cpf = boxCPFRegistro.Text;
+            string senha = boxSenhaRegistro.Text;
+
+            //Validação do máximo de números
+            if (cpf.Length != 11)
+            {
+                MessageBox.Show("Por favor, preencha o CPF com 11 números.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            //Validação se o usuário digitou o campo CPF.
+            if (string.IsNullOrWhiteSpace(boxCPFRegistro.Text))
+            {
+                MessageBox.Show("Por favor, preencha o CPF.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            //Validação se o usuário digitou o campo senha.
+            if (string.IsNullOrWhiteSpace(boxSenhaRegistro.Text))
+            {
+                MessageBox.Show("Por favor, preencha a Senha.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            CPTM cptm = new CPTM();
+            cptm.Show();
+            this.Hide();
+        }
+
+        private void boxCPFRegistro_TextChanged(object sender, EventArgs e)
+        {
+            TextBox tbCPF = sender as TextBox;
+            if (tbCPF != null)
+            {
+                // Remove todos os caracteres não numéricos
+                string filteredText = new string(tbCPF.Text.Where(char.IsDigit).ToArray());
+
+                // Limita o texto a 11 caracteres
+                if (filteredText.Length > 11)
+                {
+                    filteredText = filteredText.Substring(0, 11);
+                }
+
+                // Atualiza o texto do TextBox e move o cursor para o final
+                tbCPF.Text = filteredText;
+                tbCPF.SelectionStart = tbCPF.Text.Length;
+            }
         }
     }
 }

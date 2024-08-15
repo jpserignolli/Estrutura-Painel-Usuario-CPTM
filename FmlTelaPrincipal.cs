@@ -19,12 +19,25 @@ namespace Estrutura_Painel_Usuário_CPTM
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+            string cpf = boxCPF.Text;
+
+            // Remove todos os caracteres não numéricos
+            cpf = new string(cpf.Where(char.IsDigit).ToArray());
+
+            // Validação se o CPF tem exatamente 11 dígitos
+            if (cpf.Length != 11)
+            {
+                MessageBox.Show("Por favor, preencha o CPF com 11 números.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             //Validação se o usuário digitou o campo CPF
-            if(string.IsNullOrWhiteSpace(boxCPF.Text)){
+            if (string.IsNullOrWhiteSpace(boxCPF.Text)){
                 MessageBox.Show("Por favor, preencha o CPF.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             FmlSenha fmlsenha = new FmlSenha();
+            fmlsenha.CPF = cpf;
             fmlsenha.Show();
 
             this.Hide();
@@ -33,7 +46,22 @@ namespace Estrutura_Painel_Usuário_CPTM
 
         private void boxCPF_TextChanged(object sender, EventArgs e)
         {
-            string cpf = boxCPF.Text;
+            TextBox tbCPF = sender as TextBox;
+            if (tbCPF != null)
+            {
+                // Remove todos os caracteres não numéricos
+                string filteredText = new string(tbCPF.Text.Where(char.IsDigit).ToArray());
+
+                // Limita o texto a 11 caracteres
+                if (filteredText.Length > 11)
+                {
+                    filteredText = filteredText.Substring(0, 11);
+                }
+
+                // Atualiza o texto do TextBox e move o cursor para o final
+                tbCPF.Text = filteredText;
+                tbCPF.SelectionStart = tbCPF.Text.Length;
+            }
         }
 
         private void linkDuvidas_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

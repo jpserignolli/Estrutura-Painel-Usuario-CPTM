@@ -86,6 +86,7 @@
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnEntrar
             // 
@@ -141,6 +142,7 @@
             this.Name = "FmlSenha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Companhia Paulista de Trens Metropolitanos";
+            this.Load += new System.EventHandler(this.FmlSenha_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

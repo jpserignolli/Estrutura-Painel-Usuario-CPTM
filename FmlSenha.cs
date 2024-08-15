@@ -12,6 +12,7 @@ namespace Estrutura_Painel_Usuário_CPTM
 {
     public partial class FmlSenha : Form
     {
+        public string CPF { get; set; }
         public FmlSenha()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace Estrutura_Painel_Usuário_CPTM
         {
             string senha = boxSenha.Text;
 
+            //Validação se o usuário digitou o campo senha.
             if (string.IsNullOrWhiteSpace(boxSenha.Text)){
                 MessageBox.Show("Por favor, preencha a Senha.", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -28,6 +30,18 @@ namespace Estrutura_Painel_Usuário_CPTM
             FmlPainelUsuario fmlusuario = new FmlPainelUsuario();
             fmlusuario.Show();
 
+            this.Hide();
+        }
+
+        private void FmlSenha_Load(object sender, EventArgs e)
+        {
+            lblInfCPF.Text = CPF;
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            CPTM cptm = new CPTM();
+            cptm.Show();
             this.Hide();
         }
     }
