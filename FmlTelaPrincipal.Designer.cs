@@ -74,7 +74,7 @@
             this.boxCPF.Name = "boxCPF";
             this.boxCPF.Size = new System.Drawing.Size(215, 20);
             this.boxCPF.TabIndex = 3;
-            this.boxCPF.TextChanged += new System.EventHandler(this.boxCPF_TextChanged);
+            
             // 
             // button1
             // 

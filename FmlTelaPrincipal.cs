@@ -43,7 +43,6 @@ namespace Estrutura_Painel_Usuário_CPTM
             this.Hide();
 
         }
-
         private void boxCPF_TextChanged(object sender, EventArgs e)
         {
             TextBox tbCPF = sender as TextBox;
@@ -63,7 +62,6 @@ namespace Estrutura_Painel_Usuário_CPTM
                 tbCPF.SelectionStart = tbCPF.Text.Length;
             }
         }
-
         private void linkDuvidas_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             string url = "https://www.cptm.sp.gov.br/Pages/atendimento.aspx";
