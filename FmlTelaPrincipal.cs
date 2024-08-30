@@ -43,25 +43,6 @@ namespace Estrutura_Painel_Usuário_CPTM
             this.Hide();
 
         }
-        private void boxCPF_TextChanged(object sender, EventArgs e)
-        {
-            TextBox tbCPF = sender as TextBox;
-            if (tbCPF != null)
-            {
-                // Remove todos os caracteres não numéricos
-                string filteredText = new string(tbCPF.Text.Where(char.IsDigit).ToArray());
-
-                // Limita o texto a 11 caracteres
-                if (filteredText.Length > 11)
-                {
-                    filteredText = filteredText.Substring(0, 11);
-                }
-
-                // Atualiza o texto do TextBox e move o cursor para o final
-                tbCPF.Text = filteredText;
-                tbCPF.SelectionStart = tbCPF.Text.Length;
-            }
-        }
         private void linkDuvidas_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             string url = "https://www.cptm.sp.gov.br/Pages/atendimento.aspx";
@@ -84,6 +65,26 @@ namespace Estrutura_Painel_Usuário_CPTM
         private void CPTM_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void boxCPF_TextChanged_1(object sender, EventArgs e)
+        {
+            TextBox tbCPF = sender as TextBox;
+            if (tbCPF != null)
+            {
+                // Remove todos os caracteres não numéricos
+                string filteredText = new string(tbCPF.Text.Where(char.IsDigit).ToArray());
+
+                // Limita o texto a 11 caracteres
+                if (filteredText.Length > 11)
+                {
+                    filteredText = filteredText.Substring(0, 11);
+                }
+
+                // Atualiza o texto do TextBox e move o cursor para o final
+                tbCPF.Text = filteredText;
+                tbCPF.SelectionStart = tbCPF.Text.Length;
+            }
         }
     }
 }

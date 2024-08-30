@@ -74,7 +74,7 @@
             this.boxCPF.Name = "boxCPF";
             this.boxCPF.Size = new System.Drawing.Size(215, 20);
             this.boxCPF.TabIndex = 3;
-            
+            this.boxCPF.TextChanged += new System.EventHandler(this.boxCPF_TextChanged_1);
             // 
             // button1
             // 
@@ -131,6 +131,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "CPTM";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Companhia Paulista de Trens Metropolitanos";
