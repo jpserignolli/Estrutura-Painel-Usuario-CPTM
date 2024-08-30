@@ -14,7 +14,9 @@
 - [x]  Redirecionamento ao Canal de Ajuda do Site Oficial da CPTM.
 - [x]  Criação de conta ao usuário para o primeiro acesso.
 - [x]  Painel Pessoal do usuário.
-- [ ]  Design das Interfaces.
+- [x]  Design das Interfaces.
+- [ ]  Salvamento em Banco de Dados
+- [ ]  Funções no Painel Pessoal do Usuário.
 
 ## Linguagens Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=cs,mysql,java,html,css,js)](https://skillicons.dev)
